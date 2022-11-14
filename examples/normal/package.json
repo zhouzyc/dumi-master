@@ -1,0 +1,16 @@
+{
+  "name": "@examples/normal",
+  "scripts": {
+    "build": "node ../../bin/dumi.js build",
+    "dev": "node ../../bin/dumi.js dev",
+    "preview": "node ../../bin/dumi.js preview",
+    "setup": "node ../../bin/dumi.js setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "~4.7.4"
+  }
+}
